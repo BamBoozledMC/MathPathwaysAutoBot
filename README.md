@@ -22,7 +22,7 @@ Below you will find some videos and screenshots of this program working, and a t
 First and foremost, you must install [Power Automate](https://apps.microsoft.com/store/detail/power-automate/9NFTCH6J7FHV) from the Microsoft store.
 
 <details>
-  <summary>Show Image(s)</summary>
+  <summary><strong>Show Image(s)</strong></summary>
 
   ![Power Automate on the Microsoft Store](/images/PAMSStore.png)
 </details>
@@ -31,7 +31,7 @@ Once installed you'll need to login with your Microsoft account.
 Simply enter the email address associated with your Microsoft Account.
 
 <details>
-  <summary>Show Image(s)</summary>
+  <summary><strong>Show Image(s)</strong></summary>
 
   ![Power Automate Sign In](/images/signinPA.png)
 </details>
@@ -45,7 +45,7 @@ For this program to work properly you'll also need the browser extension for you
 Installing the extension should be quite straightforward
 
 <details>
-  <summary>Show Image(s)</summary>
+  <summary><strong>Show Image(s)</strong></summary>
 
   ![Chrome Extension](/images/chromeext.png)
 </details>
@@ -55,7 +55,7 @@ Now we have everything we need setup, it's time to create the flow!
 If you followed the intructions correctly you should be at the Power Automate home/dashboard, simply click "New flow" and then name your flow whatever you wish.
 
 <details>
-  <summary><strong>Show Image(s)<strong></summary>
+  <summary><strong>Show Image(s)</strong></summary>
 
   ![Power Automate home](/images/PAhome.png)
   ![Name your flow](/images/createflow.png)
