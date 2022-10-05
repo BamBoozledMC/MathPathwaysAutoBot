@@ -22,7 +22,7 @@ First and foremost, you must install [Power Automate](https://apps.microsoft.com
 
 ![Power Automate on the Microsoft Store](/images/PAMSStore.png)
 
-Once installed you'll need to login with your Microsoft account.
+Once installed you'll need to login with your Microsoft account.  
 Simply enter the email address associated with your Microsoft Account.
 
 ![Power Automate Sign In](/images/signinPA.png)
