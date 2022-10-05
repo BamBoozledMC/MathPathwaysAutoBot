@@ -33,6 +33,7 @@ For this program to work properly you'll also need the browser extension for you
 - [Chrome](https://chrome.google.com/webstore/detail/microsoft-power-automate/gjgfobnenmnljakmhboildkafdkicala)
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/power-automate-desktop/)
 - [Edge](https://microsoftedge.microsoft.com/addons/detail/microsoft-power-automate/njjljiblognghfjfpcdpdbpbfcmhgafg)  
+
 Installing the extension should be quite straightforward
 
 ![Chrome Extension](/images/chromeext.png)
