@@ -40,4 +40,7 @@ Installing the extension should be quite straightforward
 
 ### Creating the flow
 Now we have everything we need setup, it's time to create the flow!  
-If you followed the intructions correctly you should be at the Power Automate home/dashboard, 
+If you followed the intructions correctly you should be at the Power Automate home/dashboard, simply click "New flow" and then name your flow whatever you wish.
+
+![Power Automate home](/images/PAhome.png)
+![Name your flow](/images/newflow.png)
