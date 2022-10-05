@@ -36,7 +36,11 @@ For this program to work properly you'll also need the browser extension for you
 
 Installing the extension should be quite straightforward
 
-![Chrome Extension](/images/chromeext.png)
+<details>
+  <summary>Show Image(s)</summary>
+
+  ![Chrome Extension](/images/chromeext.png)
+</details>
 
 ### Creating the flow
 Now we have everything we need setup, it's time to create the flow!  
