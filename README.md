@@ -43,7 +43,7 @@ Now we have everything we need setup, it's time to create the flow!
 If you followed the intructions correctly you should be at the Power Automate home/dashboard, simply click "New flow" and then name your flow whatever you wish.
 
 <details>
-  <summary>Show Image</summary>
+  <summary>Show Image(s)</summary>
 
   ![Power Automate home](/images/PAhome.png)
   ![Name your flow](/images/createflow.png)
