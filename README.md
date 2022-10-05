@@ -18,10 +18,12 @@ Below you will find some videos and screenshots of this program working, and a t
 - Decent experience with Windows and/or Programming
 
 ### Installing Power Automate
-First and foremost, you must install [Power Automate](https://apps.microsoft.com/store/detail/power-automate/9NFTCH6J7FHV) from the Microsoft store
+First and foremost, you must install [Power Automate](https://apps.microsoft.com/store/detail/power-automate/9NFTCH6J7FHV) from the Microsoft store.
+
 ![Power Automate on the Microsoft Store](/images/PAMSStore.png)
 
 Once installed you'll need to login with your Microsoft account.
-Simply enter the email address associated with your Microsoft Account
+Simply enter the email address associated with your Microsoft Account.
+
 ![Power Automate Sign In](/images/signinPA.png)
 
