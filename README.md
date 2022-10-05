@@ -21,12 +21,20 @@ Below you will find some videos and screenshots of this program working, and a t
 ### Installing Power Automate
 First and foremost, you must install [Power Automate](https://apps.microsoft.com/store/detail/power-automate/9NFTCH6J7FHV) from the Microsoft store.
 
-![Power Automate on the Microsoft Store](/images/PAMSStore.png)
+<details>
+  <summary>Show Image(s)</summary>
+
+  ![Power Automate on the Microsoft Store](/images/PAMSStore.png)
+</details>
 
 Once installed you'll need to login with your Microsoft account.  
 Simply enter the email address associated with your Microsoft Account.
 
-![Power Automate Sign In](/images/signinPA.png)
+<details>
+  <summary>Show Image(s)</summary>
+
+  ![Power Automate Sign In](/images/signinPA.png)
+</details>
 
 ### Installing browser extension/add-on
 For this program to work properly you'll also need the browser extension for your browser of choice
