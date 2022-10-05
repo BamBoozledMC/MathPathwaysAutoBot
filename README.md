@@ -46,5 +46,5 @@ If you followed the intructions correctly you should be at the Power Automate ho
   <summary>Show Image</summary>
 
   ![Power Automate home](/images/PAhome.png)
-  ![Name your flow](/images/newflow.png)
+  ![Name your flow](/images/createflow.png)
 </details>
