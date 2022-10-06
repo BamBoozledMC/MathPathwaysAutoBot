@@ -5,8 +5,18 @@ This Program utilises Microsoft's [Power Automate](https://apps.microsoft.com/st
 ---
 
 ## Contents
-- s
-  - d
+- [Some Context and info](#some-context-and-info)
+- [How do I do this Myself?](#how-do-i-do-this-myself)
+  - [What you will need](#what-you-will-need)
+  - [Installing Power Automate](#installing-power-automate)
+  - [Installing browser extension/add-on](#installing-browser-extensionadd-on)
+  - [Creating the flow](#creating-the-flow)
+  - [Adding the code](#adding-the-code)
+  - [Changing/Configuring your code](#ℹ%EF%B8%8F-changingconfiguring-your-code-more-options-to-be-added-soon)
+  - [Running the Math Pathways Auto Bot](#running-the-math-pathways-auto-bot)
+  - [Stopping the Math Pathways Auto Bot](#stopping-the-math-pathways-auto-bot)
+- [Support and Bugs](#support-and-bugs)
+- [FAQ](#faq)
 
 ## Some Context and info
 From the first time I used Math Pathways I've been eager to make some sort of tool that automates the proccess of clicking through all the questions for me. I had tried multiple ways including attempting to make a browser extension, nodeJS script, and python script but all of those had some sort of limitation. This is until I came across a tool called [Power Automate
