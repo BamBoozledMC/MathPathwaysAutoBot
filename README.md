@@ -1,5 +1,6 @@
 # ![Logo](/images/mp64.png) Maths Pathways Auto Completer Bot
-**Please note this is a proof of concept and I do not intend for it to be used in malicious ways.**
+**Please note this is a proof of concept and I do not intend for it to be used in malicious ways.**  
+This Program utilises Microsoft's [Power Automate](https://apps.microsoft.com/store/detail/power-automate/9NFTCH6J7FHV) and is designed to automatically complete Math Pathways Modules.
 
 ---
 
@@ -150,3 +151,13 @@ If you know what you are doing you may change any of the code to meet your needs
 ℹ️ Once you've finished making any changes make sure to save your flow!
 
 ![three dots of MPClass varible](/images/saveflow.png)
+
+### Running the Math Pathways Auto Bot
+Congrats! You made it to the fun part.  
+To run the Bot, click the ▶️ button located next to the save button.
+
+<details>
+  <summary><strong>Show Image(s)</strong></summary>
+
+  ![Run the flow](/images/runflow.png)
+</details>
