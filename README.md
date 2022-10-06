@@ -73,5 +73,50 @@ After creating the flow, you should see a window open that says "You don't have 
 If you're at the right place, you're ready to add the code!  
 
 ```
-SET MPClass TO $'''https://your-mathpathway-class-URL.com''' WebAutomation.LaunchChrome.LaunchChrome Url: MPClass WindowState: WebAutomation.BrowserWindowState.Normal ClearCache: False ClearCookies: False WaitForPageToLoadTimeout: 60 Timeout: 60 BrowserInstance=> Browser WAIT 2 IF (WebAutomation.IfWebPageContains.WebPageDoesNotContainText BrowserInstance: Browser Text: $'''Continue activity''') THEN     Display.ShowMessageDialog.ShowMessage Title: $'''Login''' Message: $'''Please login then click \"OK\" when done''' Icon: Display.Icon.Information Buttons: Display.Buttons.OK DefaultButton: Display.DefaultButton.Button1 IsTopMost: True ButtonPressed=> ButtonPressed END WebAutomation.GoToWebPage.GoToWebPage BrowserInstance: Browser Url: $'''%MPClass%/work''' WaitForPageToLoadTimeout: 60 WAIT 2 Display.ShowMessageDialog.ShowMessage Title: $'''MP Auto Bot ''' Message: $'''Start the MP Auto Bot by selecting \"OK\". Manually stop this flow to stop the bot''' Icon: Display.Icon.Warning Buttons: Display.Buttons.OK DefaultButton: Display.DefaultButton.Button1 IsTopMost: True ButtonPressed=> runbot LOOP WHILE ($'''true''') = ($'''true''')     MouseAndKeyboard.MoveMouseToTextOnScreenWithOCR.WaitForTextToAppearAndMoveMouseToTextOnScreenWithWindowsOcr TextToFind: $'''Check''' IsRegEx: False WindowsOcrLanguage: MouseAndKeyboard.WindowsOcrLanguage.English Occurence: 1 SearchForTextOn: MouseAndKeyboard.SearchTarget.EntireScreen ImageWidthMultiplier: 1 ImageHeightMultiplier: 1 MovementStyle: MouseAndKeyboard.MovementStyle.Instant Timeout: 5 PositionRelativeToText: MouseAndKeyboard.PositionOnImage.MiddleCenter OffsetX: 0 OffsetY: 0 X=> LocationOfTextFoundX Y=> LocationOfTextFoundY Width=> WidthOfTextFound Height=> HeightOfTextFound     ON ERROR         GOTO skipclick     END     MouseAndKeyboard.SendMouseClick.Click ClickType: MouseAndKeyboard.MouseClickType.LeftClick MillisecondsDelay: 0     WAIT 1     LABEL skipclick     IF (OCR.IfTextOnScreen.TextOnScreenExistsWithWindowsOcr TextToFind: $'''fast''' IsRegex: False WindowsOcrLanguage: OCR.WindowsOcrLanguage.English SearchForTextOn: OCR.SearchTarget.EntireScreen ImageWidthMultiplier: 1 ImageHeightMultiplier: 1 TextLocationX=> LocationOfTextFoundX2 TextLocationY=> LocationOfTextFoundY2) THEN         WAIT 1         MouseAndKeyboard.MoveMouseToTextOnScreenWithOCR.WaitForTextToAppearAndMoveMouseToTextOnScreenWithWindowsOcr TextToFind: $'''Continue''' IsRegEx: False WindowsOcrLanguage: MouseAndKeyboard.WindowsOcrLanguage.English Occurence: 1 SearchForTextOn: MouseAndKeyboard.SearchTarget.EntireScreen ImageWidthMultiplier: 1 ImageHeightMultiplier: 1 MovementStyle: MouseAndKeyboard.MovementStyle.Instant Timeout: 5 PositionRelativeToText: MouseAndKeyboard.PositionOnImage.MiddleCenter OffsetX: 0 OffsetY: 0 X=> LocationOfTextFoundX Y=> LocationOfTextFoundY Width=> WidthOfTextFound Height=> HeightOfTextFound                 ON ERROR                     GOTO skipclick                 END         MouseAndKeyboard.SendMouseClick.Click ClickType: MouseAndKeyboard.MouseClickType.LeftClick MillisecondsDelay: 0         WAIT 1     END     MouseAndKeyboard.MoveMouseToImage.ClickImage Images: [imgrepo['Image_2']] SearchForImageOn: MouseAndKeyboard.SearchTarget.EntireScreen MousePositionOnImage: MouseAndKeyboard.PositionOnImage.MiddleCenter OffsetX: 0 OffsetY: 0 Tolerance: 10 MovementStyle: MouseAndKeyboard.MovementStyle.Instant Occurence: 1 Timeout: 5 ClickType: MouseAndKeyboard.ClickType.LeftClick SecondsBeforeClick: 0 SearchAlgorithm: MouseAndKeyboard.ImageFinderAlgorithm.Legacy X=> X Y=> Y     ON ERROR      END     WAIT 1 END DISABLE END  # [ControlRepository][PowerAutomateDesktop]  {   "ControlRepositorySymbols": [],   "ImageRepositorySymbol": {     "Name": "imgrepo",     "ImportMetadata": {},     "Repository": "{\r\n  \"Folders\": [],\r\n  \"Images\": [\r\n    {\r\n      \"Id\": \"0c8cf720-9f18-4209-91f6-1572cc1779cf\",\r\n      \"Name\": \"Image_2\",\r\n      \"Screenshot\": \"iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAANSURBVBhXY2BYPvM/AAQrAkD6JlbeAAAAAElFTkSuQmCC\",\r\n      \"ScreenshotPath\": \"imageRepo-screenshots\\\\\\\\cf7be69e-c637-408a-908d-cc78cce1bc20.png\"\r\n    }\r\n  ],\r\n  \"Version\": 1\r\n}"   },   "ConnectionReferences": [] }
+SET MPClass TO $'''https://your-mathpathway-class-URL.com'''
+WebAutomation.LaunchChrome.LaunchChrome Url: MPClass WindowState: WebAutomation.BrowserWindowState.Normal ClearCache: False ClearCookies: False WaitForPageToLoadTimeout: 60 Timeout: 60 BrowserInstance=> Browser
+WAIT 2
+IF (WebAutomation.IfWebPageContains.WebPageDoesNotContainText BrowserInstance: Browser Text: $'''Continue activity''') THEN
+    Display.ShowMessageDialog.ShowMessage Title: $'''Login''' Message: $'''Please login then click \"OK\" when done''' Icon: Display.Icon.Information Buttons: Display.Buttons.OK DefaultButton: Display.DefaultButton.Button1 IsTopMost: True ButtonPressed=> ButtonPressed
+END
+WebAutomation.GoToWebPage.GoToWebPage BrowserInstance: Browser Url: $'''%MPClass%/work''' WaitForPageToLoadTimeout: 60
+WAIT 2
+Display.ShowMessageDialog.ShowMessage Title: $'''MP Auto Bot ''' Message: $'''Start the MP Auto Bot by selecting \"OK\". Manually stop this flow to stop the bot''' Icon: Display.Icon.Warning Buttons: Display.Buttons.OK DefaultButton: Display.DefaultButton.Button1 IsTopMost: True ButtonPressed=> runbot
+LOOP WHILE ($'''true''') = ($'''true''')
+    MouseAndKeyboard.MoveMouseToTextOnScreenWithOCR.WaitForTextToAppearAndMoveMouseToTextOnScreenWithWindowsOcr TextToFind: $'''Check''' IsRegEx: False WindowsOcrLanguage: MouseAndKeyboard.WindowsOcrLanguage.English Occurence: 1 SearchForTextOn: MouseAndKeyboard.SearchTarget.EntireScreen ImageWidthMultiplier: 1 ImageHeightMultiplier: 1 MovementStyle: MouseAndKeyboard.MovementStyle.Instant Timeout: 5 PositionRelativeToText: MouseAndKeyboard.PositionOnImage.MiddleCenter OffsetX: 0 OffsetY: 0 X=> LocationOfTextFoundX Y=> LocationOfTextFoundY Width=> WidthOfTextFound Height=> HeightOfTextFound
+    ON ERROR
+        GOTO skipclick
+    END
+    MouseAndKeyboard.SendMouseClick.Click ClickType: MouseAndKeyboard.MouseClickType.LeftClick MillisecondsDelay: 0
+    WAIT 1
+    LABEL skipclick
+    IF (OCR.IfTextOnScreen.TextOnScreenExistsWithWindowsOcr TextToFind: $'''fast''' IsRegex: False WindowsOcrLanguage: OCR.WindowsOcrLanguage.English SearchForTextOn: OCR.SearchTarget.EntireScreen ImageWidthMultiplier: 1 ImageHeightMultiplier: 1 TextLocationX=> LocationOfTextFoundX2 TextLocationY=> LocationOfTextFoundY2) THEN
+        WAIT 1
+        MouseAndKeyboard.MoveMouseToTextOnScreenWithOCR.WaitForTextToAppearAndMoveMouseToTextOnScreenWithWindowsOcr TextToFind: $'''Continue''' IsRegEx: False WindowsOcrLanguage: MouseAndKeyboard.WindowsOcrLanguage.English Occurence: 1 SearchForTextOn: MouseAndKeyboard.SearchTarget.EntireScreen ImageWidthMultiplier: 1 ImageHeightMultiplier: 1 MovementStyle: MouseAndKeyboard.MovementStyle.Instant Timeout: 5 PositionRelativeToText: MouseAndKeyboard.PositionOnImage.MiddleCenter OffsetX: 0 OffsetY: 0 X=> LocationOfTextFoundX Y=> LocationOfTextFoundY Width=> WidthOfTextFound Height=> HeightOfTextFound
+                ON ERROR
+                    GOTO skipclick
+                END
+        MouseAndKeyboard.SendMouseClick.Click ClickType: MouseAndKeyboard.MouseClickType.LeftClick MillisecondsDelay: 0
+        WAIT 1
+    END
+    MouseAndKeyboard.MoveMouseToImage.ClickImage Images: [imgrepo['Image_2']] SearchForImageOn: MouseAndKeyboard.SearchTarget.EntireScreen MousePositionOnImage: MouseAndKeyboard.PositionOnImage.MiddleCenter OffsetX: 0 OffsetY: 0 Tolerance: 10 MovementStyle: MouseAndKeyboard.MovementStyle.Instant Occurence: 1 Timeout: 5 ClickType: MouseAndKeyboard.ClickType.LeftClick SecondsBeforeClick: 0 SearchAlgorithm: MouseAndKeyboard.ImageFinderAlgorithm.Legacy X=> X Y=> Y
+    ON ERROR
+
+    END
+    WAIT 1
+END
+DISABLE END
+
+# [ControlRepository][PowerAutomateDesktop]
+
+{
+  "ControlRepositorySymbols": [],
+  "ImageRepositorySymbol": {
+    "Name": "imgrepo",
+    "ImportMetadata": {},
+    "Repository": "{\r\n  \"Folders\": [],\r\n  \"Images\": [\r\n    {\r\n      \"Id\": \"0c8cf720-9f18-4209-91f6-1572cc1779cf\",\r\n      \"Name\": \"Image_2\",\r\n      \"Screenshot\": \"iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAANSURBVBhXY2BYPvM/AAQrAkD6JlbeAAAAAElFTkSuQmCC\",\r\n      \"ScreenshotPath\": \"imageRepo-screenshots\\\\\\\\58538345-00a5-4f81-ac27-ddf3cc6367f8.png\"\r\n    }\r\n  ],\r\n  \"Version\": 1\r\n}"
+  },
+  "ConnectionReferences": []
+}
+
 ```
