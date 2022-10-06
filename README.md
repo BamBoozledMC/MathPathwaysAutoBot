@@ -4,7 +4,11 @@ This Program utilises Microsoft's [Power Automate](https://apps.microsoft.com/st
 
 ---
 
-## Some Context & info
+## Contents
+- s
+  - d
+
+## Some Context and info
 From the first time I used Math Pathways I've been eager to make some sort of tool that automates the proccess of clicking through all the questions for me. I had tried multiple ways including attempting to make a browser extension, nodeJS script, and python script but all of those had some sort of limitation. This is until I came across a tool called [Power Automate
 ](https://apps.microsoft.com/store/detail/power-automate/9NFTCH6J7FHV) made by Microsoft. It allows you to automate many things including browsers (via the use of a browser extension added by the program)
 
