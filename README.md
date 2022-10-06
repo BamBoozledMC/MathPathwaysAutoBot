@@ -133,3 +133,15 @@ Now we have the code copied, return to the flow you created and paste the code w
 
   ![Paste the copied code into flow](/images/pasteinflow.png)
 </details>
+
+### ℹ️ Changing/Configuring your code
+There are a few things you might want to change before you run your code.  
+It is required that you change the URL of your Math Pathways class (the URL which you use to access Math Pathways), at the top of all the code click the three dots on the right of the MPClass varible then click edit and set the URL accordingly.
+
+<details>
+  <summary><strong>Show Image(s)</strong></summary>
+
+  ![three dots of MPClass varible](/images/editurl.png)
+  ![three dots of MPClass varible](/images/optionsurl.png)
+  ![three dots of MPClass varible](/images/seturl.gif)
+</details>
