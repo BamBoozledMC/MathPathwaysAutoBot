@@ -180,6 +180,6 @@ When you click "OK" you should be redirect to *your-mpclass*.com<strong>/work</s
 
 Here is a short video of the bot working on a module.
 
-![Bot running](https://user-images.githubusercontent.com/64771089/194204920-4707abaf-47da-4b18-8545-a253e44dcf87.mp4)
+https://user-images.githubusercontent.com/64771089/194204920-4707abaf-47da-4b18-8545-a253e44dcf87.mp4
 
 
