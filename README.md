@@ -71,6 +71,7 @@ After creating the flow, you should see a window open that says "You don't have 
 </details>
 
 If you're at the right place, you're ready to add the code!  
+Copy the code below by either selecting it all and pressing **CTRL** + **C** / right click > copy ***OR*** 
 
 ```
 SET MPClass TO $'''https://your-mathpathway-class-URL.com'''
