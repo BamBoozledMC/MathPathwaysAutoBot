@@ -71,7 +71,13 @@ After creating the flow, you should see a window open that says "You don't have 
 </details>
 
 If you're at the right place, you're ready to add the code!  
-Copy the code below by either selecting it all and pressing **CTRL** + **C** / right click > copy ***OR*** 
+Copy the code below by either selecting it all and pressing **CTRL** + **C** / right click > copy ***OR*** clicking the copy button located at the top right corner of the code block.
+
+<details>
+  <summary><strong>Show Image(s)</strong></summary>
+
+  ![Copy the code from the code block below](/images/copycode.png)
+</details>
 
 ```
 SET MPClass TO $'''https://your-mathpathway-class-URL.com'''
@@ -119,5 +125,11 @@ DISABLE END
   },
   "ConnectionReferences": []
 }
-
 ```
+Now we have the code copied, return to the flow you created and paste the code with **CTRL** + **V** / right click > paste
+
+<details>
+  <summary><strong>Show Image(s)</strong></summary>
+
+  ![Paste the copied code into flow](/images/pasteinflow.png)
+</details>
