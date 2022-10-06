@@ -180,5 +180,6 @@ When you click "OK" you should be redirect to *your-mpclass*.com<strong>/work</s
 
 Here is a short video of the bot working on a module.
 
-![Auto Bot running](https://raw.githubusercontent.com/BamBoozledMC/MathPathwaysAutoBot/main/images/botrunning.mp4?token=GHSAT0AAAAAABZRYE3GIXIALCCAQOQUXJ3WYZ6ITGA)
+![Bot running]([/images/startbotmsg.png](https://user-images.githubusercontent.com/64771089/194204920-4707abaf-47da-4b18-8545-a253e44dcf87.mp4))
+
 
