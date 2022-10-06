@@ -175,7 +175,7 @@ When you click "OK" you should be redirect to *your-mpclass*.com<strong>/work</s
 ℹ️ **MAKE SURE:**
 - If you don't have a module started, start one and complete the warm up if you have one, then you can start the bot
 - If you are still in a warm up for a module, complete the warm up then start the bot
-- If you have a test, [stop the bot](put link to stopping bot) and complete the test
+- If you have a test, [stop the bot](#stopping-the-math-pathways-auto-bot) and complete the test
 - The "Check my answer" and "Complete question" are visable on screen at all times, as the bot uses [OCR](https://g.co/kgs/gC1Fmd) to find and click the buttons. This also means you may need to manually scroll down at times. (for the best results, maximize the browser window)
 
 Here is a short video of the bot working on a module.
@@ -184,4 +184,4 @@ https://user-images.githubusercontent.com/64771089/194204920-4707abaf-47da-4b18-
 
 ### Stopping the Math Pathways Auto Bot
 Due to limitations of Power Automate, I couldn't make a way to easily stop the bot from running.  
-
+To stop 
