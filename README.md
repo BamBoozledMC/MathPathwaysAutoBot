@@ -161,3 +161,18 @@ To run the Bot, click the ▶️ button located next to the save button.
 
   ![Run the flow](/images/runflow.png)
 </details>
+
+This will launch a browser window and automaically open the URL you set as your Math Pathways class. If your're not already logged in, a message box will pop up asking you to login.
+
+![three dots of MPClass varible](/images/loginmsg.png)
+
+Select your user and enter your password to login, the Bot will not continue until you click "OK" on the message pop up.  
+When you click "OK" you should be redirect to *your-mpclass*.com<strong>/work</strong> and you will get another message pop up which when you are ready to start the Bot click "OK".  
+ℹ️ **PLEASE NOTE** If you don't already have a module started, are doing the warm up for the module, or currently have test the Bot will not work.  
+ℹ️ **MAKE SURE**
+- If you don't have a module started, start one and complete the warm up if you have one, then you can start the bot
+- If you are still in a warm up for a module, complete the warm up then start the bot
+- If you have a test, [stop the bot](put link to stopping bot) and complete the test
+- The "Check my answer" and "Complete question" are visable at all times, as the bot uses OCR to find and click the buttons
+
+![three dots of MPClass varible](/images/startbotmsg.png)
