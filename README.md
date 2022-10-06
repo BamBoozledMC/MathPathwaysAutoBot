@@ -151,7 +151,7 @@ Now we have the code copied, return to the flow you created and paste the code w
 
 ### ℹ️ Changing/Configuring your code (MORE OPTIONS TO BE ADDED SOON)
 There are a few things you might want to change before you run your code.  
-❕ It is required that you change the URL of your Math Pathways class (the URL which you use to access Math Pathways), at the top of all the code click the three dots on the right of the MPClass varible then click edit and set the URL accordingly.
+ℹ️ It is required that you change the URL of your Math Pathways class (the URL which you use to access Math Pathways). At the top of all the code click the three dots on the right of the MPClass varible then click edit and set the URL accordingly.
 
 <details>
   <summary><strong>Show Image(s)</strong></summary>
@@ -181,11 +181,11 @@ This will launch a browser window and automaically open the URL you set as your 
 ![three dots of MPClass varible](/images/loginmsg.png)
 
 Select your user and enter your password to login, the Bot will not continue until you click "OK" on the message pop up.  
-When you click "OK" you should be redirect to *your-mpclass*.com<strong>/work</strong> and you will get another message pop up which when you are ready to start the Bot click "OK".  
+When you click "OK" you should be redirected to *your-mpclass*.com<strong>/work</strong> and you will get another message pop up which when you are ready to start the Bot click "OK".  
 
 ![three dots of MPClass varible](/images/startbotmsg.png)
 
-ℹ️ **PLEASE NOTE:** If you don't already have a module started, are doing the warm up for the module, or currently have test the Bot will not work.  
+ℹ️ **PLEASE NOTE:** If you don't already have a module started, are doing the warm up for the module, or currently have a test, the Bot will not work.  
 ℹ️ **MAKE SURE:**
 - If you don't have a module started, start one and complete the warm up if you have one, then you can start the bot
 - If you are still in a warm up for a module, complete the warm up then start the bot
