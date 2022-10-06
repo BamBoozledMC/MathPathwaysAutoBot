@@ -176,7 +176,7 @@ When you click "OK" you should be redirect to *your-mpclass*.com<strong>/work</s
 - If you don't have a module started, start one and complete the warm up if you have one, then you can start the bot
 - If you are still in a warm up for a module, complete the warm up then start the bot
 - If you have a test, [stop the bot](put link to stopping bot) and complete the test
-- The "Check my answer" and "Complete question" are visable on screen at all times, as the bot uses [OCR](https://g.co/kgs/gC1Fmd) to find and click the buttons
+- The "Check my answer" and "Complete question" are visable on screen at all times, as the bot uses [OCR](https://g.co/kgs/gC1Fmd) to find and click the buttons. This also means you may need to manually scroll down at times. (for the best results, maximize the browser window)
 
 Here is a short video of the bot working on a module.
 
