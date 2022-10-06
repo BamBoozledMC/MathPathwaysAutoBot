@@ -192,3 +192,5 @@ To stop the Math Pathways Auto Bot you'll need to switch back to your Power Auto
   ![Run the flow](/images/stopflow.png)
 </details>
 
+## Support and Bugs
+If you need some help and/or find any bugs create an [issue](/issues)
