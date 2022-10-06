@@ -184,4 +184,11 @@ https://user-images.githubusercontent.com/64771089/194204920-4707abaf-47da-4b18-
 
 ### Stopping the Math Pathways Auto Bot
 Due to limitations of Power Automate, I couldn't make a way to easily stop the bot from running.  
-To stop 
+To stop the Math Pathways Auto Bot you'll need to switch back to your Power Automate flow and stop it from there (if the Bot is running try to do this quickly as the program will still try and move your mouse)
+
+<details>
+  <summary><strong>Show Image(s)</strong></summary>
+
+  ![Run the flow](/images/stopflow.png)
+</details>
+
