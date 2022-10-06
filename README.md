@@ -180,5 +180,5 @@ When you click "OK" you should be redirect to *your-mpclass*.com<strong>/work</s
 
 Here is a short video of the bot working on a module.
 
-![Auto Bot running](/images/botrunning.mp4)
+![Auto Bot running](/images/botrunning.mp4?raw=true)
 
