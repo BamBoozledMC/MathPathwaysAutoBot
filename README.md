@@ -182,4 +182,6 @@ Here is a short video of the bot working on a module.
 
 https://user-images.githubusercontent.com/64771089/194204920-4707abaf-47da-4b18-8545-a253e44dcf87.mp4
 
+### Stopping the Math Pathways Auto Bot
+Due to limitations of Power Automate, I couldn't make a way to easily stop the bot from running.  
 
