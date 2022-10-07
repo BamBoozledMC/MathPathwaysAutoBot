@@ -210,4 +210,7 @@ To stop the Math Pathways Auto Bot you'll need to switch back to your Power Auto
 If you need some help and/or find any bugs create an issue at **https://github.com/BamBoozledMC/MathPathwaysAutoBot/issues** and I will get back to you when I can.
 
 ## FAQ
-Things will be added here sometime soon
+**What if I get the "Whoa! That was fast" pop up?**  
+I have designed the bot to go slow enough so this doesn't happen, however in the case it does, the bot should detect it and close the pop up.  
+
+More things will be added here sometime soon
