@@ -37,7 +37,7 @@ Follow the steps below to set this up for yourself. Some screenshots and videos 
 First and foremost, you must install [Power Automate](https://apps.microsoft.com/store/detail/power-automate/9NFTCH6J7FHV) from the Microsoft store.
 
 <details>
-  <summary><strong>Show Image(s)</strong></summary>
+  <summary><strong>🖼️ Show Image(s)</strong></summary>
 
   ![Power Automate on the Microsoft Store](/images/PAMSStore.png)
 </details>
