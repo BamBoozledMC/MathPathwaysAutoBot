@@ -46,7 +46,7 @@ Once installed you'll need to login with your Microsoft account.
 Simply enter the email address associated with your Microsoft Account.
 
 <details>
-  <summary><strong>Show Image(s)</strong></summary>
+  <summary><strong>Show Image(s) 🖼️</strong></summary>
 
   ![Power Automate Sign In](/images/signinPA.png)
 </details>
