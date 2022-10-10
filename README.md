@@ -53,7 +53,7 @@ Simply enter the email address associated with your Microsoft Account.
 
 ### Installing browser extension/add-on
 For this program to work properly you'll also need the browser extension for your browser of choice
-- [Chrome](https://chrome.google.com/webstore/detail/microsoft-power-automate/gjgfobnenmnljakmhboildkafdkicala)
+- [Chrome](https://chrome.google.com/webstore/detail/microsoft-power-automate/gjgfobnenmnljakmhboildkafdkicala) (Recommended for easiest setup)
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/power-automate-desktop/)
 - [Edge](https://microsoftedge.microsoft.com/addons/detail/microsoft-power-automate/njjljiblognghfjfpcdpdbpbfcmhgafg)  
 
