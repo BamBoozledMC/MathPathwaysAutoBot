@@ -46,7 +46,7 @@ Once installed you'll need to login with your Microsoft account.
 Simply enter the email address associated with your Microsoft Account.
 
 <details>
-  <summary><strong>Show Image(s) 🖼️</strong></summary>
+  <summary><strong>🖼️ Show Image(s)</strong></summary>
 
   ![Power Automate Sign In](/images/signinPA.png)
 </details>
@@ -60,7 +60,7 @@ For this program to work properly you'll also need the browser extension for you
 Installing the extension should be quite straightforward
 
 <details>
-  <summary><strong>Show Image(s)</strong></summary>
+  <summary><strong>🖼️ Show Image(s)</strong></summary>
 
   ![Chrome Extension](/images/chromeext.png)
 </details>
@@ -70,7 +70,7 @@ Now we have everything we need setup, it's time to create the flow!
 If you followed the intructions correctly you should be at the Power Automate home/dashboard, simply click "New flow" and then name your flow whatever you wish.
 
 <details>
-  <summary><strong>Show Image(s)</strong></summary>
+  <summary><strong>🖼️ Show Image(s)</strong></summary>
 
   ![Power Automate home](/images/PAhome.png)
   ![Name your flow](/images/createflow.png)
@@ -80,7 +80,7 @@ If you followed the intructions correctly you should be at the Power Automate ho
 After creating the flow, you should see a window open that says "You don't have any actions here yet".
 
 <details>
-  <summary><strong>Show Image(s)</strong></summary>
+  <summary><strong>🖼️ Show Image(s)</strong></summary>
 
   ![Your flow window](/images/floweditblank.png)
 </details>
@@ -89,7 +89,7 @@ If you're at the right place, you're ready to add the code!
 Copy the code below by either selecting it all and pressing **CTRL** + **C** / right click > copy ***OR*** clicking the copy button located at the top right corner of the code block.
 
 <details>
-  <summary><strong>Show Image(s)</strong></summary>
+  <summary><strong>🖼️ Show Image(s)</strong></summary>
 
   ![Copy the code from the code block below](/images/copycode.png)
 </details>
@@ -144,7 +144,7 @@ DISABLE END
 Now we have the code copied, return to the flow you created and paste the code with **CTRL** + **V** / right click > paste
 
 <details>
-  <summary><strong>Show Image(s)</strong></summary>
+  <summary><strong>🖼️ Show Image(s)</strong></summary>
 
   ![Paste the copied code into flow](/images/pasteinflow.png)
 </details>
@@ -154,7 +154,7 @@ There are a few things you might want to change before you run your code.
 ℹ️ It is required that you change the URL of your Math Pathways class (the URL which you use to access Math Pathways). At the top of all the code click the three dots on the right of the MPClass varible then click edit and set the URL accordingly.
 
 <details>
-  <summary><strong>Show Image(s)</strong></summary>
+  <summary><strong>🖼️ Show Image(s)</strong></summary>
 
   ![three dots of MPClass varible](/images/editurl.png)
   ![three dots of MPClass varible](/images/optionsurl.png)
@@ -171,7 +171,7 @@ Congrats! You made it to the fun part.
 To run the Bot, click the ▶️ button located next to the save button.
 
 <details>
-  <summary><strong>Show Image(s)</strong></summary>
+  <summary><strong>🖼️ Show Image(s)</strong></summary>
 
   ![Run the flow](/images/runflow.png)
 </details>
@@ -201,7 +201,7 @@ Due to limitations of Power Automate, I couldn't make a way to easily stop the b
 To stop the Math Pathways Auto Bot you'll need to switch back to your Power Automate flow and stop it from there (if the Bot is running try to do this quickly as the program will still try and move your mouse)
 
 <details>
-  <summary><strong>Show Image(s)</strong></summary>
+  <summary><strong>🖼️ Show Image(s)</strong></summary>
 
   ![Run the flow](/images/stopflow.png)
 </details>
